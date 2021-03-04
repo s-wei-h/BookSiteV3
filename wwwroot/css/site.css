@@ -1,0 +1,36 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap');
+body, footer {
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title:hover {
+    color: gainsboro;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.book-box {
+    border: 5px brown solid;
+}
+
+.btn-primary {
+    margin: 5px 5px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    background-color: rosybrown;
+}
+
+.navbar-brand {
+    color: darkturquoise;
+}

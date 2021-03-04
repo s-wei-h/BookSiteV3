@@ -1,0 +1,16 @@
+﻿@{
+}
+@model Book
+
+
+<div class="container-sm p-3 m-lg-4 border border-info rounded-lg" style="background-color: aliceblue;">
+    <h3>@Model.Title</h3>
+    <div>
+        <p class="font-weight-bold">Written by: @Model.AuthorLast, @Model.AuthorFirst</p>
+        <p>Published by: @Model.Publisher</p>
+        <p>IBSN: @Model.ISBN</p>
+        <p>Categories: @Model.Category</p>
+        <p>Number of pages: @Model.NumPages</p>
+        <p>Can be purchased for $@Model.Price</p>
+    </div>
+</div>

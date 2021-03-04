@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Professor Hilton Book Reccomendations";
+}
+
+@model BookListViewModel
+
+<div class="text-center">
+
+    @foreach (var book in Model.BookShelf)
+    {
+        <partial name="BookSummary" model="book" />
+    }
+</div>
+
+<div class="p-5 btn-group" page-model="@Model.PagingInfo" page-action="Index" 
+     page-classes-enabled="true" page-class="btn m-3" page-class-normal="btn-info" 
+     page-class-selected="btn-outline-info" page-url-category="@Model.CurrentCategory" >
+</div>
